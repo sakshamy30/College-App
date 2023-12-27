@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center {
+    color: green;
+}
+
+form label {
+    font-size: 20px;
+    color: red;
+}
+
+form input {
+    height: 30px;
+    width: 200px;
+}
+
+form button {
+    height: 50px;
+    width: 300px;
+}
+
+form {
+    border: 1px solid black;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+button a:hover {
+    color: green;
+}

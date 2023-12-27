@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.student {
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+.student button {
+    height: 50px;
+    width: 100%;
+    color: blue;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+button a:hover{
+    color: green;
+}
+
+.student .time{
+    margin-left: 40%;
+}

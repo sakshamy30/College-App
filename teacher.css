@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ask2 {
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+.ask2 button {
+    height: 50px;
+    width: 100%;
+    color: blue;
+}
+
+.teach {
+    cursor: pointer;
+}
+
+button a:hover{
+    color: green;
+}
+
+.ask2 h4{
+    margin-left: 40%;
+}
